@@ -1,0 +1,36 @@
+# Build output
+build/
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sdf
+*.opensdf
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+._*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Downloaded datasets (get via README Google Drive link instead)
+Implementation/resources/mnist/
+Implementation/resources/datasets/
+Implementation/resources/testing_samples/
+
+# Trained models — uncomment if you want these regenerated locally instead of committed
+# resources/models/
