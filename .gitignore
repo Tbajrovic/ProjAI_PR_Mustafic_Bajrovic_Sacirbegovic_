@@ -30,7 +30,6 @@ cmake_install.cmake
 # Downloaded datasets (get via README Google Drive link instead)
 Implementation/resources/mnist/
 Implementation/resources/datasets/
-Implementation/resources/testing_samples/
 
 # Trained models — uncomment if you want these regenerated locally instead of committed
 # resources/models/
